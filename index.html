@@ -1,0 +1,162 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f3443;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: #0f3443;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45px;
+    padding: 0;
+    font-weight: bolder;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem 1rem;
+}
+
+section {
+    background-color: #102a42;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.about-me {
+    text-align: center;
+    max-width: 400px;
+}
+
+.avatar {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.about-me p {
+    margin-bottom: 1rem;
+}
+
+.about-me a {
+    color: #38b2ac;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.my-skills {
+    width: 600px;
+}
+
+.my-skills .skill {
+    margin-bottom: 1rem;
+}
+
+.my-skills label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+    background-color: #1a3d5a;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #38b2ac;
+    height: 1rem;
+    border-radius: 5px;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+           
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <h1>Marcian Benedict D</h1>
+            <img src="https://static.vecteezy.com/system/resources/previews/014/388/556/original/avatar-portrait-of-a-kid-child-caucasian-boy-in-round-blue-frame-illustration-in-cartoon-flat-style-vector.jpg" alt="Avatar" class="avatar">
+            <p>I am currently pursuing my CSE certification at [Dr.N.G.P Institute of technology], where I have excelled in courses related to networking, cloud computing, and system administration."
+                "With a solid foundation in programming languages like Python and Java, as well as a strong understanding of operating systems such as Windows Server and Linux, I am well-equipped to tackle complex IT challenges."</p>
+            <a href="#">Check out my work</a>
+        </section>
+        <section class="my-skills">
+            <h2>My Skills</h2>
+            <div class="skill">
+                <label>HTML</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>CSS</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>Bootstrap</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>JavaScript</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>C Programming</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
